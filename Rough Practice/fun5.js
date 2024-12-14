@@ -1,17 +1,11 @@
-// function diff(x,y){
-//     return Math.abs(x-y);
-// }
-// let result=diff(4,18); 
-// console.log(result);
-
 function isOdd(num){
-    for(let i=1; i<=num; i++){
-        if(i%2==0){
-            return false; 
-        }else{
-            return true; 
-        }
+    if(num%2==0){
+        return true; 
+    }else{
+        return false; 
     }
 }
-let result=isOdd(5);
+for(let i=1; i<=5; i++){
+let result=isOdd(i);
 console.log(result)
+}
