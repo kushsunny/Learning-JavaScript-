@@ -1,8 +1,4 @@
-
-
-
 // print arr in horizontally 
-
 
 let arr=[2,5,64,2,1,86,43]; 
 

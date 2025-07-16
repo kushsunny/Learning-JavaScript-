@@ -1,9 +1,4 @@
-
-
-
-
-// 
-function brush(){
+ function brush(){
     console.log("Please Brush your teeth first")
 }
 
